@@ -1,5 +1,32 @@
+
 body {
     font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(17, 17, 216);
+    padding: 1px;
+}
+
+header a {
+    color: black;
+    background-color: #ff0000;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #2adede;
+    border: 1px solid #2adede;
 }
 
 h1 {
@@ -7,30 +34,37 @@ h1 {
     font-size: 60px;
 }
 
-h2{
-    font-size: 40px;
-    background-color: peru;
+h2 {
+    background-color: hsl(180, 100%, 50%);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
 }
 
-a {
-    color: black;
+main p {
     font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid navy;
+    border-radius: 15px;
 }
 
-p, img {
-    border: 3px solid peru;
+p img {
+    height: 150px;
+    width: 200px;
 }
 
-p, table {
-    font-size: 20px;
+.nb_news {
+    background-color: navy;
+    color: rgb(255, 255, 255);
 }
 
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
 }
 
-td{
-    border: 1px solid brown;
+footer p {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
 }
