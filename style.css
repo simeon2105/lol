@@ -7,7 +7,7 @@ header {
     padding: 1px;
 }
 
-header a {
+.button {
     color: black;
     background-color: #ff0000;
     font-size: 20px;
